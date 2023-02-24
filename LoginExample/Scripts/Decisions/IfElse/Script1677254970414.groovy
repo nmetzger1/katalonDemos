@@ -51,3 +51,5 @@ if (WebUI.verifyElementVisible(findTestObject('Decisions/Page_The Internet/h3_Th
     System.out.println('Ad NOT found.')
 }
 
+WebUI.closeBrowser()
+

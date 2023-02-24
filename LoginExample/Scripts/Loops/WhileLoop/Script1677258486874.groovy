@@ -16,17 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/entry_ad')
 
-int adsAppeared = 0
+int adCount = 0
 
 WebUI.delay(2)
 
 while (WebUI.verifyElementVisible(findTestObject('Decisions/Page_The Internet/h3_This is a modal window'), FailureHandling.OPTIONAL)) {
-    adsAppeared++
+    adCount++
 
     WebUI.click(findTestObject('Decisions/Page_The Internet/p_Close'))
 
@@ -35,7 +36,11 @@ while (WebUI.verifyElementVisible(findTestObject('Decisions/Page_The Internet/h3
     WebUI.delay(2)
 }
 
-System.out.println('Ads appeared: ' + adsAppeared)
+System.out.println('Number of times ads appeared: ' + adCount)
+
+if(adCount > 1) {
+	KeywordUtil.markFailed("Ad appeared more than once.")
+}
 
 WebUI.closeBrowser()
 
