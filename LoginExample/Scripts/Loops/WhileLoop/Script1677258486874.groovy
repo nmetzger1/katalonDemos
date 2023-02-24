@@ -33,7 +33,7 @@ while (WebUI.verifyElementVisible(findTestObject('Decisions/Page_The Internet/h3
 
     WebUI.refresh()
 
-    WebUI.delay(2)
+    WebUI.delay(1)
 }
 
 System.out.println('Number of times ads appeared: ' + adCount)
