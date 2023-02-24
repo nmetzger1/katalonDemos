@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_click here</name>
+   <tag></tag>
+   <elementGuidId>53f039dc-fb79-4cdc-b9b9-bbe00d0d721c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#restart-ad</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='restart-ad']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>211dff38-8734-4a12-b700-21673bd04cbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>restart-ad</value>
+      <webElementGuid>668400d9-1943-4c89-9b7b-3a59ccc84b2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>click here</value>
+      <webElementGuid>44a5a8aa-8c19-41c4-8404-71337cfe256b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;restart-ad&quot;)</value>
+      <webElementGuid>44cefa69-0543-4aba-9b0c-3cc439a5723b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='restart-ad']</value>
+      <webElementGuid>15c21498-1197-49aa-8087-53add9f192c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/p[3]/a</value>
+      <webElementGuid>3f91ac14-b05b-4379-9f3c-4476e786f5e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'click here')]</value>
+      <webElementGuid>ded904de-b631-4dc2-b321-f8de204a4f73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entry Ad'])[1]/following::a[1]</value>
+      <webElementGuid>ce249ee2-17e2-4640-b03d-9ae377b681b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This is a modal window'])[1]/preceding::a[1]</value>
+      <webElementGuid>b6a9e7b2-c423-4a85-a7db-030937c824eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='click here']/parent::*</value>
+      <webElementGuid>296b423f-3694-4375-beb8-f0b5c28acf4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[2]</value>
+      <webElementGuid>77fb77cb-c465-4cf7-b02a-14538911ec7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[3]/a</value>
+      <webElementGuid>b69fea21-248d-4ead-9db9-3ea2fa079b7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'restart-ad' and (text() = 'click here' or . = 'click here')]</value>
+      <webElementGuid>dbb5ac12-386a-4322-a6eb-8ad38bf69b17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
