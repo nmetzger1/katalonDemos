@@ -19,4 +19,9 @@
       <initValue>'https://practicetestautomation.com/practice-test-login/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Cuba'</initValue>
+      <name>country</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
