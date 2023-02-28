@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TableTest</name>
+   <name>Google Search - DD</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2bf048a6-b3de-4ae4-8e02-e8192bc5c956</testCaseGuid>
+   <testCaseGuid>88d1e270-fe4f-46f4-b5f9-972f8f9939ae</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>580c4fc1-a758-4559-9f43-de4d95635505</variableId>
+      <variableId>d1c6af60-7b3a-4f43-99b5-cb0b7a8b477f</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>580c4fc1-a758-4559-9f43-de4d95635505</id>
+      <id>d1c6af60-7b3a-4f43-99b5-cb0b7a8b477f</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>searchTerm</name>
    </variable>
 </TestCaseEntity>
